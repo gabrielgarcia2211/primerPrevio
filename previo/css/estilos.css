@@ -152,9 +152,29 @@
       .mainAbajo .section2 .derecha .caja2 {
         background: #c402ff; }
 
+.informacion {
+  width: 100%;
+  background: rgba(185, 38, 38, 0.753);
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
 .footer {
   width: 100%;
-  background: #000000; }
+  background: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around; }
+  .footer .section {
+    width: 10%;
+    height: 90px;
+    margin: auto;
+    padding: 10px; }
+    .footer .section img {
+      width: 100%;
+      height: 100%; }
+
+.inferior {
+  margin-top: 10px; }
 
 .contenedor {
   width: 100%;
@@ -162,13 +182,13 @@
   .contenedor .izq {
     padding: 20px;
     width: 50%;
-    background: #f2f2f2;
-    margin-right: 10px; }
+    background: #f2f2f2; }
     .contenedor .izq .formulario {
       margin: auto;
       padding: 10px;
       width: 400px;
-      background: #35d0ff; }
+      background: #35d0ff;
+      box-shadow: 10px 10px 41px 0px rgba(0, 0, 0, 0.75); }
       .contenedor .izq .formulario p {
         margin-bottom: 10px;
         color: blue;
@@ -192,6 +212,8 @@
         display: block;
         padding: 4px;
         margin-top: 10px; }
+        .contenedor .izq .formulario input[type="button"]:hover {
+          cursor: pointer; }
   .contenedor .der {
     padding: 20px;
     width: 50%;
@@ -200,7 +222,8 @@
       padding: 10px;
       margin: auto;
       width: 300px;
-      background: #35d0ff; }
+      background: #35d0ff;
+      box-shadow: 10px 10px 41px 0px rgba(0, 0, 0, 0.75); }
       .contenedor .der .formulario2 p {
         margin-bottom: 10px;
         color: blue;
@@ -215,5 +238,12 @@
         display: block;
         padding: 4px;
         margin-top: 10px; }
+        .contenedor .der .formulario2 input[type="button"]:hover {
+          cursor: pointer; }
+
+.contenedorPadre {
+  width: 100%;
+  max-width: 50%;
+  background: #ccc3; }
 
 /*# sourceMappingURL=estilos.css.map */
