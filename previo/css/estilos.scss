@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.header{
+
+    width: 100%;
+    background: rgb(67, 86, 252);
+    padding: 10px;
+    
+   
+
+
+    .headerArriba{
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 10px;
+        height: 20px;
+
+        .sectionizq{
+            float: left;
+            a{
+                color: white;
+                text-decoration: none;
+                padding: 5px;
+                display: inline-block;
+                
+            }
+        }
+
+        .sectionder{
+            float: right;
+            a{
+                color: white;
+                text-decoration: none;
+                padding: 5px;
+                display: inline-block;
+
+                
+            }
+
+           
+        }
+    }
+}
+
+.headerAbajo{
+
+    width: 100%;
+    height: 250px;
+    background: rgb(12, 37, 255);
+
+}
+
+
+///////////////////////////////////////////
+
+@media (max-width: 0px) {
+    
+}
