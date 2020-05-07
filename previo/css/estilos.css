@@ -31,7 +31,12 @@
 .headerAbajo {
   width: 100%;
   height: 250px;
-  background: #0c25ff; }
+  background: #fa4525;
+  text-align: center;
+  padding: 10px; }
+  .headerAbajo img {
+    width: 80%;
+    height: 100%; }
 
 .main {
   width: 100%; }
@@ -84,5 +89,131 @@
             display: inline-block;
             padding: 5px;
             border: 1px solid #0000; }
+
+.mainAbajo {
+  width: 100%; }
+  .mainAbajo .section1 {
+    background: rgba(255, 61, 61, 0.8);
+    padding: 20px;
+    height: 290px; }
+    .mainAbajo .section1 h2 {
+      text-align: center; }
+    .mainAbajo .section1 .caja {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      margin-top: 10px; }
+      .mainAbajo .section1 .caja .imagen {
+        width: 10%;
+        height: 120px;
+        padding: 5px; }
+        .mainAbajo .section1 .caja .imagen img {
+          width: 100%;
+          height: 100%;
+          border-radius: 40px 40px 40px 40px;
+          border: 0px solid #000000; }
+        .mainAbajo .section1 .caja .imagen p {
+          margin-top: 5px;
+          margin-bottom: 10px;
+          text-align: center;
+          color: white; }
+  .mainAbajo .section2 {
+    width: 100%;
+    display: flex; }
+    .mainAbajo .section2 .izquierda {
+      width: 60%;
+      height: 250px;
+      padding: 20px;
+      background: #f2f2f2; }
+      .mainAbajo .section2 .izquierda h3 {
+        color: blue;
+        font-size: 17px;
+        font-family: cursive; }
+      .mainAbajo .section2 .izquierda p {
+        padding: 10px;
+        margin-top: 5px;
+        text-align: justify; }
+    .mainAbajo .section2 .derecha {
+      display: flex;
+      width: 40%;
+      height: 250px; }
+      .mainAbajo .section2 .derecha .caja1, .mainAbajo .section2 .derecha .caja2 {
+        width: 120px;
+        height: 120px;
+        margin: auto;
+        padding: 5px;
+        text-align: center; }
+        .mainAbajo .section2 .derecha .caja1 p, .mainAbajo .section2 .derecha .caja2 p {
+          color: white;
+          margin-top: 40px; }
+      .mainAbajo .section2 .derecha .caja1 {
+        background: #3628ff; }
+      .mainAbajo .section2 .derecha .caja2 {
+        background: #c402ff; }
+
+.footer {
+  width: 100%;
+  background: #000000; }
+
+.contenedor {
+  width: 100%;
+  display: flex; }
+  .contenedor .izq {
+    padding: 20px;
+    width: 50%;
+    background: #f2f2f2;
+    margin-right: 10px; }
+    .contenedor .izq .formulario {
+      margin: auto;
+      padding: 10px;
+      width: 400px;
+      background: #35d0ff; }
+      .contenedor .izq .formulario p {
+        margin-bottom: 10px;
+        color: blue;
+        font-size: 17px;
+        font-family: cursive; }
+      .contenedor .izq .formulario label {
+        display: block; }
+      .contenedor .izq .formulario input[type="text"] {
+        padding: 2px;
+        margin-bottom: 4px;
+        width: 100%; }
+      .contenedor .izq .formulario .con {
+        display: flex; }
+        .contenedor .izq .formulario .con label {
+          display: block; }
+        .contenedor .izq .formulario .con input[type="password"] {
+          width: 50%;
+          padding: 2px;
+          display: inline-block; }
+      .contenedor .izq .formulario input[type="button"] {
+        display: block;
+        padding: 4px;
+        margin-top: 10px; }
+  .contenedor .der {
+    padding: 20px;
+    width: 50%;
+    background: #f2f2f2; }
+    .contenedor .der .formulario2 {
+      padding: 10px;
+      margin: auto;
+      width: 300px;
+      background: #35d0ff; }
+      .contenedor .der .formulario2 p {
+        margin-bottom: 10px;
+        color: blue;
+        font-size: 17px;
+        font-family: cursive; }
+      .contenedor .der .formulario2 label {
+        display: block; }
+      .contenedor .der .formulario2 input[type="text"] {
+        padding: 2px;
+        margin-bottom: 4px; }
+      .contenedor .der .formulario2 input[type="button"] {
+        display: block;
+        padding: 4px;
+        margin-top: 10px; }
 
 /*# sourceMappingURL=estilos.css.map */
