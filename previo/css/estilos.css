@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   padding: 0;
@@ -31,5 +32,57 @@
   width: 100%;
   height: 250px;
   background: #0c25ff; }
+
+.main {
+  width: 100%; }
+  .main .titulo {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 40px; }
+    .main .titulo p {
+      font-family: Georgia, 'Times New Roman', Times, serif; }
+  .main .contenedor {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%; }
+    .main .contenedor .section {
+      margin-top: 4px;
+      width: 20%;
+      height: 320px;
+      background: #f2f2f2;
+      padding: 5px;
+      margin: 20px;
+      box-shadow: 18px -4px 27px -5px rgba(0, 0, 0, 0.75); }
+      .main .contenedor .section .imagen {
+        width: 100%;
+        height: 150px;
+        background: #ccc;
+        text-align: center; }
+        .main .contenedor .section .imagen h4 {
+          position: relative;
+          top: 70px; }
+      .main .contenedor .section .descripcion {
+        margin-top: 10px;
+        overflow: hidden;
+        padding: 10px; }
+        .main .contenedor .section .descripcion .title {
+          font-size: 18px;
+          color: blue; }
+        .main .contenedor .section .descripcion .caja {
+          margin-top: 15px;
+          margin-bottom: 5px;
+          float: right; }
+          .main .contenedor .section .descripcion .caja input[type="button"] {
+            padding: 4px; }
+            .main .contenedor .section .descripcion .caja input[type="button"]:hover {
+              cursor: pointer; }
+          .main .contenedor .section .descripcion .caja .añadir {
+            background: #4245ff;
+            color: white;
+            display: inline-block;
+            padding: 5px;
+            border: 1px solid #0000; }
 
 /*# sourceMappingURL=estilos.css.map */
